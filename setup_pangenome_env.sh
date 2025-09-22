@@ -3,7 +3,7 @@
 set -euo pipefail
 
 # CONFIG
-VENV_DIR="$HOME/venvs/pangenome-env"
+VENV_DIR="${1:-$HOME/venvs/pangenome-env}"   # Use first argument or fallback
 HTSLIB_VERSION="1.19"
 HTSLIB_DIR="$HOME/htslib-$HTSLIB_VERSION"
 HTSLIB_PREFIX="$HOME/htslib-install"

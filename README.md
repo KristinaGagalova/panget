@@ -25,12 +25,14 @@ SampleName#HaploID#OriginalHeader
 Install the following Python and system dependencies:
 
 ```bash
-./setup_pangenome_env.sh
+./setup_pangenome_env.sh /path/to/install/dir
 ```
 That will install 
 * Python biopython
 * Python bgzip
 * htslib for gzip
+
+in the chosen directory.      
 
 ## Usage
 
